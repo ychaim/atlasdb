@@ -227,8 +227,7 @@
                 "com.palantir.atlasdb:atlasdb-commons",
                 "com.palantir.remoting-api:errors",
                 "com.palantir.remoting2:error-handling",
-                "io.dropwizard:dropwizard-util",
-                "org.mpierce.metrics.reservoir:hdrhistogram-metrics-reservoir"
+                "io.dropwizard:dropwizard-util"
             ]
         },
         "com.google.guava:guava": {
@@ -549,7 +548,7 @@
             ]
         },
         "com.palantir.tritium:tritium-api": {
-            "locked": "0.8.3",
+            "locked": "0.8.4",
             "transitive": [
                 "com.palantir.tritium:tritium-core",
                 "com.palantir.tritium:tritium-lib",
@@ -559,7 +558,7 @@
             ]
         },
         "com.palantir.tritium:tritium-core": {
-            "locked": "0.8.3",
+            "locked": "0.8.4",
             "transitive": [
                 "com.palantir.tritium:tritium-lib",
                 "com.palantir.tritium:tritium-metrics",
@@ -568,32 +567,32 @@
             ]
         },
         "com.palantir.tritium:tritium-lib": {
-            "locked": "0.8.3",
+            "locked": "0.8.4",
             "transitive": [
                 "com.palantir.atlasdb:atlasdb-client",
                 "com.palantir.atlasdb:atlasdb-config"
             ]
         },
         "com.palantir.tritium:tritium-metrics": {
-            "locked": "0.8.3",
+            "locked": "0.8.4",
             "transitive": [
                 "com.palantir.tritium:tritium-lib"
             ]
         },
         "com.palantir.tritium:tritium-proxy": {
-            "locked": "0.8.3",
+            "locked": "0.8.4",
             "transitive": [
                 "com.palantir.tritium:tritium-lib"
             ]
         },
         "com.palantir.tritium:tritium-slf4j": {
-            "locked": "0.8.3",
+            "locked": "0.8.4",
             "transitive": [
                 "com.palantir.tritium:tritium-lib"
             ]
         },
         "com.palantir.tritium:tritium-tracing": {
-            "locked": "0.8.3",
+            "locked": "0.8.4",
             "transitive": [
                 "com.palantir.tritium:tritium-lib"
             ]
@@ -649,8 +648,7 @@
                 "io.dropwizard.metrics:metrics-servlets",
                 "io.dropwizard:dropwizard-core",
                 "io.dropwizard:dropwizard-metrics",
-                "io.dropwizard:dropwizard-servlets",
-                "org.mpierce.metrics.reservoir:hdrhistogram-metrics-reservoir"
+                "io.dropwizard:dropwizard-servlets"
             ]
         },
         "io.dropwizard.metrics:metrics-healthchecks": {
@@ -1109,8 +1107,7 @@
             "locked": "2.1.10",
             "transitive": [
                 "com.palantir.atlasdb:atlasdb-client",
-                "com.palantir.tritium:tritium-metrics",
-                "org.mpierce.metrics.reservoir:hdrhistogram-metrics-reservoir"
+                "com.palantir.tritium:tritium-metrics"
             ]
         },
         "org.hibernate:hibernate-validator": {
@@ -1461,8 +1458,7 @@
                 "com.palantir.atlasdb:atlasdb-commons",
                 "com.palantir.remoting-api:errors",
                 "com.palantir.remoting2:error-handling",
-                "io.dropwizard:dropwizard-util",
-                "org.mpierce.metrics.reservoir:hdrhistogram-metrics-reservoir"
+                "io.dropwizard:dropwizard-util"
             ]
         },
         "com.google.guava:guava": {
@@ -1882,7 +1878,7 @@
             ]
         },
         "com.palantir.tritium:tritium-api": {
-            "locked": "0.8.3",
+            "locked": "0.8.4",
             "transitive": [
                 "com.palantir.tritium:tritium-core",
                 "com.palantir.tritium:tritium-lib",
@@ -1892,7 +1888,7 @@
             ]
         },
         "com.palantir.tritium:tritium-core": {
-            "locked": "0.8.3",
+            "locked": "0.8.4",
             "transitive": [
                 "com.palantir.tritium:tritium-lib",
                 "com.palantir.tritium:tritium-metrics",
@@ -1901,32 +1897,32 @@
             ]
         },
         "com.palantir.tritium:tritium-lib": {
-            "locked": "0.8.3",
+            "locked": "0.8.4",
             "transitive": [
                 "com.palantir.atlasdb:atlasdb-client",
                 "com.palantir.atlasdb:atlasdb-config"
             ]
         },
         "com.palantir.tritium:tritium-metrics": {
-            "locked": "0.8.3",
+            "locked": "0.8.4",
             "transitive": [
                 "com.palantir.tritium:tritium-lib"
             ]
         },
         "com.palantir.tritium:tritium-proxy": {
-            "locked": "0.8.3",
+            "locked": "0.8.4",
             "transitive": [
                 "com.palantir.tritium:tritium-lib"
             ]
         },
         "com.palantir.tritium:tritium-slf4j": {
-            "locked": "0.8.3",
+            "locked": "0.8.4",
             "transitive": [
                 "com.palantir.tritium:tritium-lib"
             ]
         },
         "com.palantir.tritium:tritium-tracing": {
-            "locked": "0.8.3",
+            "locked": "0.8.4",
             "transitive": [
                 "com.palantir.tritium:tritium-lib"
             ]
@@ -2010,8 +2006,7 @@
                 "io.dropwizard.metrics:metrics-servlets",
                 "io.dropwizard:dropwizard-core",
                 "io.dropwizard:dropwizard-metrics",
-                "io.dropwizard:dropwizard-servlets",
-                "org.mpierce.metrics.reservoir:hdrhistogram-metrics-reservoir"
+                "io.dropwizard:dropwizard-servlets"
             ]
         },
         "io.dropwizard.metrics:metrics-healthchecks": {
@@ -2542,8 +2537,7 @@
             "locked": "2.1.10",
             "transitive": [
                 "com.palantir.atlasdb:atlasdb-client",
-                "com.palantir.tritium:tritium-metrics",
-                "org.mpierce.metrics.reservoir:hdrhistogram-metrics-reservoir"
+                "com.palantir.tritium:tritium-metrics"
             ]
         },
         "org.hibernate:hibernate-validator": {
