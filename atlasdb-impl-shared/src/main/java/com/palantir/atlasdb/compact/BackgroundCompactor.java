@@ -96,7 +96,6 @@ public final class BackgroundCompactor implements AutoCloseable {
         daemon.start();
     }
 
-    @Override
     public void run() {
         try (SingleLockService compactorLock = createSimpleLocks()) {
             log.info("Starting background compactor");
